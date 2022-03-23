@@ -18,10 +18,7 @@ const CardsForm = ({getCards, cardSelected, setCardSelected}) => {
             setEmail(cardSelected.email);
             setPassword(cardSelected.password);
             setBirthday(cardSelected.birthday);
-        }else{
-            reset();
         }
-        
     },[cardSelected])
 
     console.log(cardSelected)
